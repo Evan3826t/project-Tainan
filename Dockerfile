@@ -1,6 +1,7 @@
 FROM php:8.1-fpm-alpine
 
-RUN apk add --no-cache nginx wget npm
+RUN apk add --no-cache nginx wget
+# RUN apk add --no-cache nginx wget npm
 
 RUN mkdir -p /run/nginx
 
@@ -13,7 +14,7 @@ RUN sh -c "wget http://getcomposer.org/composer.phar && chmod a+x composer.phar 
 RUN cd /app && \
     /usr/local/bin/composer install --no-dev
 
-RUN cd /app && npm install && npm run
+# RUN cd /app && npm install && npm run
 
 RUN chown -R www-data: /app
 
