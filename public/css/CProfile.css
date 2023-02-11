@@ -11,16 +11,7 @@
     width: 33.33333333%;
     margin: 0 auto;
 }
-.wow {
-	animation-name: zoomIn;
-	-webkit-animation-name: zoomIn;
-	animation-duration: 1.5s;
-	-webkit-animation-duration: 1.5s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;	
-}
+
 #CProfile{
     position: relative;
     overflow: hidden;
@@ -256,12 +247,12 @@
 	content:
 	"";
 	position: absolute;
-	width: calc(90% - 54px);
+	width: calc(90% - 40px);
 	height: 1px;
 	border-radius: 120px;
 	background: #948e86;
 	bottom: -21px;
-	left: calc(5% - -22px);
+	left: calc(5% - -20px);
 }
 #CProfile .Jsesbox .commJJ img{
     width: 70px;
@@ -287,7 +278,7 @@
 	width: 10px;
 	height: 10px;
 	border-radius: 120px;
-	background: #ddb786;
+	background: black;
 	bottom: -25px;
 }
 #CProfile .Jsesbox .commJJ p{

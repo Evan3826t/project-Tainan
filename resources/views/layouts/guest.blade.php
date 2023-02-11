@@ -52,6 +52,19 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
+<style>
+    #contact{
+        background-color: #e5e5e5;
+    }
+    #contact .container{
+        background: rgba(255, 255, 255, 0.91);
+        box-shadow: 0px 5px 10px -5px rgb(187 187 187 / 25%);
+        border-radius: 12px;
+    }
+    body {
+        background: #e5e5e5;
+    }
+</style>
 
 <body>
     <div id="app">
@@ -105,7 +118,7 @@
         <main>
             @yield('content')
         </main>
-        <div class="translate"><a href="javascript:goTop();" id="gotop"><i class="fa-solid fa-arrow-up"></i></a></div>
+        <div class="translate"><a href="javascript:goTop();" id="gotop"><img style="max-width: 60%; fill: green;" src="{{ asset('image/icon/whiteTop.svg') }}"></a></div>
         <footer class="wweeb bg-dark">
             <section>
                 <div class="wweeb">

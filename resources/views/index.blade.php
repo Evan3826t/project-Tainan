@@ -70,35 +70,38 @@
   <div class="Jsesbox">
     <section>
       <div>
-        <h2>服務流程<b class="subbtitle">PROCESSES</b></h2>
+        <h2>工程訂製流程<b class="subbtitle">PROCESSES</b></h2>
       </div>
       <div class="jJGbox">
         <p class="titlle">設計訂製流程</p>
         <div class="commJJ">
-          <div class="boox"><img src="{{ asset('image/icon/sa01.png') }}">
+          <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}">
             <p>初步洽談</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa02.png') }}">
-            <p>實地放樣</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}">
+            <p>實地勘查</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa03.png') }}">
-            <p>設計提案</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}">
+            <p>設計提議</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa04.png') }}">
-            <p>預算控管</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}">
+            <p>工程委託</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa05.png') }}">
-            <p>設計委託</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}">
+            <p>工期安排</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa06.png') }}">
-            <p>細部設計</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}">
+            <p>工程施作</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/sa07.png') }}">
-            <p>設計定稿</p>
+          <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}">
+            <p>雙方檢核</p>
+          </div>
+          <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}">
+            <p>圓滿結案</p>
           </div>
         </div>
       </div>
-      <div class="jJGbox">
+      <!-- <div class="jJGbox">
         <p class="titlle">工程訂製流程</p>
         <div class="commJJ">
           <div class="boox"><img src="{{ asset('image/icon/baba01.png') }}">
@@ -123,12 +126,76 @@
             <p>圓滿結案</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
   </div>
 </div>
 
-<div id="service">
+<div id="contact" class="pt-3 pb-5">
+  <div class="container mt-3 p-5">
+    <h1 class="text-center mb-5">聯絡我們</h1>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">姓名</label>
+        <input type="text" class="form-control" id="inputName">
+      </div>
+      <div class="col-md-6">
+        <label for="inputGender" class="form-label">稱謂</label>
+        <select id="inputGender" class="form-select">
+          <option selected>請選擇</option>
+          <option>先生</option>
+          <option>小姐</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="inputPhone" class="form-label">電話</label>
+        <input type="number" class="form-control" id="inputPhone">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">地址</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-md-6">
+        <label for="inputAmount" class="form-label">工程預算</label>
+        <select id="inputAmount" class="form-select">
+          <option selected>請選擇</option>
+          <option value="50-70萬">50-70萬</option>
+          <option value="70-90萬">70-90萬</option>
+          <option value="90-120萬">90-120萬</option>
+          <option value="120-150萬">120-150萬</option>
+          <option value="150-180萬">150-180萬</option>
+          <option value="180-210萬">180-210萬</option>
+          <option value="210-240萬">210-240萬</option>
+          <option value="240-270萬">240-270萬</option>
+          <option value="270-300萬">270-300萬</option>
+          <option value="300-350萬">300-350萬</option>
+          <option value="350-400萬">350-400萬</option>
+          <option value="400-450萬">400-450萬</option>
+          <option value="450-500萬">450-500萬</option>
+          <option value="500萬以上">500萬以上</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="inputGender" class="form-label">哪裡得知{{ config('app.name', 'Laravel') }}</label>
+        <select id="inputGender" class="form-select">
+          <option selected>請選擇</option>
+          <option>先生</option>
+          <option>小姐</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-success btn-lg">確認送出</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<!-- <div id="service">
   <section>
     <div id="contact">
       <h3>Inquiry Form</h3><br />
@@ -261,7 +328,7 @@
       </div>
     </div>
   </section>
-</div>
+</div> -->
 
 @endsection
 
