@@ -6,7 +6,10 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('image/upload/banner.jpeg') }}" class="d-block w-100" alt="...">
+      <!-- <img src="{{ asset('image/icon/banner.jpeg') }}" class="d-block w-100" alt="..."> -->
+      <img src="{{ asset('icon/banner.jpeg') }}" class="d-block w-100" alt="...">
+      <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
+
     </div>
   </div>
 </div>
@@ -75,28 +78,36 @@
       <div class="jJGbox">
         <p class="titlle">設計訂製流程</p>
         <div class="commJJ">
-          <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon01.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}"> -->
             <p>初步洽談</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon02.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}"> -->
             <p>實地勘查</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon03.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}"> -->
             <p>設計提議</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon04.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}"> -->
             <p>工程委託</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon05.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}"> -->
             <p>工期安排</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon06.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}"> -->
             <p>工程施作</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon07.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}"> -->
             <p>雙方檢核</p>
           </div>
-          <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}">
+          <div class="boox"><img src="{{ asset('icon/icon08.svg') }}">
+          <!-- <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}"> -->
             <p>圓滿結案</p>
           </div>
         </div>

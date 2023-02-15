@@ -118,7 +118,7 @@
         <main>
             @yield('content')
         </main>
-        <div class="translate"><a href="javascript:goTop();" id="gotop"><img style="max-width: 60%; fill: green;" src="{{ asset('image/icon/whiteTop.svg') }}"></a></div>
+        <div class="translate"><a href="javascript:goTop();" id="gotop"><img style="max-width: 60%; fill: green;" src="{{ asset('icon/whiteTop.svg') }}"></a></div>
         <footer class="wweeb bg-dark">
             <section>
                 <div class="wweeb">

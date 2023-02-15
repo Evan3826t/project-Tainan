@@ -13,8 +13,4 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-<<<<<<< HEAD
 .DS_Store
-=======
-.DS_Store
->>>>>>> ae55b4d57c643892430e7d037e475e10afd7bd59

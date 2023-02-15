@@ -18,4 +18,6 @@ RUN cd /app && \
 
 RUN chown -R www-data: /app
 
+# RUN bash -c "composer install && chmod -R 777 /var/www && php artisan migrate --seed && php artisan storage:link"
+
 CMD sh /app/docker/startup.sh
