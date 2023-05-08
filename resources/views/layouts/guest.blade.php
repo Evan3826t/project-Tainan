@@ -87,7 +87,7 @@
                 </div>
                 <div id="top-nav">
                     <a href="#" title="選單 MENU" class="nav-func">
-                        <img src="{{ asset('icon/meun.png') }}" alt="icon not found" title="icon" width="50" height="50">
+                        <img src="{{ asset('image/icon/meun.png') }}" alt="icon not found" title="icon" width="50" height="50">
                     </a>
                     <nav id="main-menu" class="menu">
                         <ul class="pc">
