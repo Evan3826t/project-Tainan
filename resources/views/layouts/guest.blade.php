@@ -91,21 +91,23 @@
                     </a>
                     <nav id="main-menu" class="menu">
                         <ul class="pc">
-
                             <li>
-                                <a href="/show" style="text-decoration: inherit;"><b>最新消息</b></a>
+                                <a href="#aboutUs" style="text-decoration: inherit;"><b>關於我們</b></a>
                             </li>
 
                             <li>
-                                <a href="aboutdesign-recommended.html" style="text-decoration: inherit;"><b>業主推薦</b></a>
+                                <a href="aboutdesign-recommended.html" style="text-decoration: inherit;"><b>作品總覽</b></a>
                             </li>
 
                             <li>
-                                <a href="worksdesign.html" style="text-decoration: inherit;"><b>作品總覽</b></a>
+                                <a href="#CProfile" style="text-decoration: inherit;"><b>服務流程</b></a>
+                            </li>
+                            <li>
+                                <a href="worksdesign.html" style="text-decoration: inherit;"><b>業主推薦</b></a>
                             </li>
 
                             <li class='last'>
-                                <a href="askdesign.html" style="text-decoration: inherit;"><b>聯絡我們</b></a>
+                                <a href="#contact" style="text-decoration: inherit;"><b>聯絡我們</b></a>
                                 <ul class="subnav"></ul>
                             </li>
 

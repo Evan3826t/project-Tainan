@@ -13,12 +13,25 @@
     </div>
   </div>
 </div>
+<div id="aboutUs" class="p-5" style="background-color: #f8f8f8;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">關於我們</h1>
+        <p class="fs-4">詠櫟山團隊的土水師傅於台南為起點，開始進行老屋翻修、公寓翻修套房、自地自建、屋內局部翻新等……大小建案，累積至今20年專業經驗！獲得業主們的口碑相傳！</p>
+        <p class="fs-4">子承衣缽，更是將團隊項目由建築新增到室內設計，兼具您要的安全、舒適、美觀，期許給到業主、客戶更加全面的服務，下一代的我們秉持著上一代的精神及技術，規格再升級，為了客戶在完工階段看見心目中理想畫面就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
+        <p class="fs-4">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="container mt-5 mb-5">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/200/200/?random=2" class="card-img-top" alt="...">
+        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">標題</h5>
           <p class="card-text">簡述</p>
@@ -27,7 +40,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/200/200/?random=2" class="card-img-top" alt="...">
+        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">標題</h5>
           <p class="card-text">簡述</p>
@@ -36,7 +49,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://picsum.photos/200/200/?random=2" class="card-img-top" alt="...">
+        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">標題</h5>
           <p class="card-text">簡述</p>
@@ -46,25 +59,26 @@
   </div>
 </div>
 
+
 <div class="container p-5">
   <div class="slider responsive">
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
     <div>
-      <img src="https://picsum.photos/200/200/?random=1" alt="" class="rounded mx-auto d-block">
+      <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
   </div>
 </div>
@@ -79,35 +93,35 @@
         <p class="titlle">設計訂製流程</p>
         <div class="commJJ">
           <div class="boox"><img src="{{ asset('icon/icon01.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}"> -->
             <p>初步洽談</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon02.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}"> -->
             <p>實地勘查</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon03.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}"> -->
             <p>設計提議</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon04.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}"> -->
             <p>工程委託</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon05.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}"> -->
             <p>工期安排</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon06.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}"> -->
             <p>工程施作</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon07.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}"> -->
             <p>雙方檢核</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon08.svg') }}">
-          <!-- <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}"> -->
+            <!-- <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}"> -->
             <p>圓滿結案</p>
           </div>
         </div>
@@ -146,57 +160,76 @@
   <div class="container mt-3 p-5">
     <h1 class="text-center mb-5">聯絡我們</h1>
     <form class="row g-3">
-      <div class="col-md-6">
-        <label for="inputName" class="form-label">姓名</label>
+      <div class="col-md-3">
+        <label for="inputName" class="form-label">聯絡姓名</label>
         <input type="text" class="form-control" id="inputName">
       </div>
-      <div class="col-md-6">
-        <label for="inputGender" class="form-label">稱謂</label>
-        <select id="inputGender" class="form-select">
-          <option selected>請選擇</option>
-          <option>先生</option>
-          <option>小姐</option>
-        </select>
+      <div class="col-md-3 pt-4">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="male">
+          <label class="form-check-label" for="gender">先生</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="female">
+          <label class="form-check-label" for="gender">小姐</label>
+        </div>
       </div>
       <div class="col-md-6">
-        <label for="inputPhone" class="form-label">電話</label>
+        <label for="inputPhone" class="form-label">電話/手機號碼</label>
         <input type="number" class="form-control" id="inputPhone">
       </div>
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
+        <label for="inputLine" class="form-label">Line ID</label>
+        <input type="text" class="form-control" id="inputLine">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">電子信箱</label>
         <input type="email" class="form-control" id="inputEmail4">
       </div>
       <div class="col-12">
-        <label for="inputAddress" class="form-label">地址</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <label for="inputAddress" class="form-label">案場位置/地址</label>
+        <input type="text" class="form-control" id="inputAddress">
       </div>
       <div class="col-md-6">
-        <label for="inputAmount" class="form-label">工程預算</label>
+        <label for="inputAmount" class="form-label">理想改造</label>
         <select id="inputAmount" class="form-select">
           <option selected>請選擇</option>
-          <option value="50-70萬">50-70萬</option>
-          <option value="70-90萬">70-90萬</option>
-          <option value="90-120萬">90-120萬</option>
-          <option value="120-150萬">120-150萬</option>
-          <option value="150-180萬">150-180萬</option>
-          <option value="180-210萬">180-210萬</option>
-          <option value="210-240萬">210-240萬</option>
-          <option value="240-270萬">240-270萬</option>
-          <option value="270-300萬">270-300萬</option>
-          <option value="300-350萬">300-350萬</option>
-          <option value="350-400萬">350-400萬</option>
-          <option value="400-450萬">400-450萬</option>
-          <option value="450-500萬">450-500萬</option>
-          <option value="500萬以上">500萬以上</option>
+          <option value="oldHouse">老屋翻修</option>
+          <option value="suite">改建套房</option>
+          <option value="construction">自地自建</option>
+          <option value="renew">局部翻新</option>
+          <option value="other">其他</option>
         </select>
       </div>
       <div class="col-md-6">
-        <label for="inputGender" class="form-label">哪裡得知{{ config('app.name', 'Laravel') }}</label>
-        <select id="inputGender" class="form-select">
+        <label for="size" class="form-label">室內坪數</label>
+        <select id="size" class="form-select">
           <option selected>請選擇</option>
-          <option>先生</option>
-          <option>小姐</option>
+          <option value="40">40坪以下</option>
+          <option value="40-80">40-80坪</option>
+          <option value="80-120">80-120坪</option>
+          <option value="120-160">120-160坪</option>
+          <option value="160">160-200坪</option>
         </select>
+      </div>
+      <div class="col-md-6">
+        <label for="inputTime" class="form-label">可聯絡時間/時段</label>
+        <input type="text" class="form-control" id="inputTime">
+      </div>
+      <div class="col-md-6">
+        <label for="findUs" class="form-label">如何得知{{ config('app.name', 'Laravel') }}</label>
+        <select id="findUs" class="form-select">
+          <option selected>請選擇</option>
+          <option value="friends">親友介紹</option>
+          <option value="advertis">網絡廣告</option>
+          <option value="construction">工地現場</option>
+          <option value="other">其他</option>
+        </select>
+      </div>
+
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px;"></textarea>
+        <label for="floatingTextarea">特殊/其他需求</label>
       </div>
       <div class="col-12">
         <button type="submit" class="btn btn-success btn-lg">確認送出</button>
