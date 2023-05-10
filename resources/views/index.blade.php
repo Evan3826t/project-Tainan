@@ -71,7 +71,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active row">
         <div class="w-100 row">
-          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <img src="{{ asset('icon/sample.jpg') }}" class="col-md-6" alt="...">
           <div class="col-md-6">
             <h1 class="text-center">防水工程</h1>
             <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
@@ -82,7 +82,7 @@
       </div>
       <div class="carousel-item">
         <div class="w-100 row">
-          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <img src="{{ asset('icon/sample.jpeg') }}" class="col-md-6" alt="...">
           <div class="col-md-6">
             <h1 class="text-center">防水工程</h1>
             <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
@@ -93,7 +93,7 @@
       </div>
       <div class="carousel-item">
         <div class="w-100 row">
-          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <img src="{{ asset('icon/sample.jpeg') }}" class="col-md-6" alt="...">
           <div class="col-md-6">
             <h1 class="text-center">防水工程</h1>
             <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
