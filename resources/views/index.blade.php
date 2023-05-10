@@ -2,17 +2,18 @@
 
 @section('content')
 
-
+<!-- 首頁圖 -->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <!-- <img src="{{ asset('image/icon/banner.jpeg') }}" class="d-block w-100" alt="..."> -->
       <img src="{{ asset('icon/banner.jpeg') }}" class="d-block w-100" alt="...">
       <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
-
     </div>
   </div>
 </div>
+
+<!-- 關於我們 -->
 <div id="aboutUs" class="p-5" style="background-color: #f8f8f8;">
   <div class="container">
     <div class="row">
@@ -26,7 +27,7 @@
   </div>
 </div>
 
-
+<!-- 卡片 -->
 <div class="container mt-5 mb-5">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -59,7 +60,61 @@
   </div>
 </div>
 
+<!-- 施工紀錄 -->
+<div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active row">
+        <div class="w-100 row">
+          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <div class="col-md-6">
+            <h1 class="text-center">防水工程</h1>
+            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
+            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
+            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 row">
+          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <div class="col-md-6">
+            <h1 class="text-center">防水工程</h1>
+            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
+            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
+            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 row">
+          <img src="{{ asset('icon/banner.jpeg') }}" class="col-md-6" alt="...">
+          <div class="col-md-6">
+            <h1 class="text-center">防水工程</h1>
+            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
+            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
+            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 
+<!-- 小輪播 -->
 <div class="container p-5">
   <div class="slider responsive">
     <div>
@@ -83,6 +138,7 @@
   </div>
 </div>
 
+<!-- 施工流程 -->
 <div id="CProfile">
   <div class="Jsesbox">
     <section>
