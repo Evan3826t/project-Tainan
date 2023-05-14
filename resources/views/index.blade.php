@@ -5,10 +5,22 @@
 <!-- 首頁圖 -->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div data-bs-interval="5000" class="carousel-item active">
       <!-- <img src="{{ asset('image/icon/banner.jpeg') }}" class="d-block w-100" alt="..."> -->
-      <img src="{{ asset('icon/banner.jpeg') }}" class="d-block w-100" alt="...">
+      <img src="{{ asset('icon/banner01.jpg') }}" class="d-block w-100" alt="...">
       <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
+    </div>
+    <div data-bs-interval="5000" class="carousel-item">
+      <img src="{{ asset('icon/banner02.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+    <div data-bs-interval="5000" class="carousel-item">
+      <img src="{{ asset('icon/banner03.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+    <div data-bs-interval="5000" class="carousel-item">
+      <img src="{{ asset('icon/banner04.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+    <div data-bs-interval="5000" class="carousel-item">
+      <img src="{{ asset('icon/banner05.jpg') }}" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
@@ -19,9 +31,17 @@
     <div class="row">
       <div class="col-lg-12">
         <h1 class="text-center">關於我們</h1>
-        <p class="fs-4">詠櫟山團隊的土水師傅於台南為起點，開始進行老屋翻修、公寓翻修套房、自地自建、屋內局部翻新等……大小建案，累積至今20年專業經驗！獲得業主們的口碑相傳！</p>
-        <p class="fs-4">子承衣缽，更是將團隊項目由建築新增到室內設計，兼具您要的安全、舒適、美觀，期許給到業主、客戶更加全面的服務，下一代的我們秉持著上一代的精神及技術，規格再升級，為了客戶在完工階段看見心目中理想畫面就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
-        <p class="fs-4">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
+        <br>
+        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點</p>
+        <p class="fs-4 text-center">開始進行<span class="fs-4" style="font-weight:bold;">屋翻修、公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
+        <p class="fs-4 text-center" style="font-style:italic;">累積至今20年專業經驗！獲得業主們的口碑相傳！</p>
+        <br>
+        <p class="fs-4 text-center">子承衣缽，更是將團隊項目由建築新增到室內設計</p>
+        <p class="fs-4 text-center">兼具您要的安全、舒適、美觀，期許給到業主、客戶更加全面的服務</p>
+        <p class="fs-4 text-center">下一代的我們秉持著上一代的精神及技術，規格再升級</p>
+        <p class="fs-4 text-center">為了客戶在完工階段看見心目中理想畫面就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
+        <br>
+        <p class="fs-4 text-center">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
       </div>
     </div>
   </div>
@@ -29,6 +49,8 @@
 
 <!-- 卡片 -->
 <div class="container mt-5 mb-5">
+  <h1 class="text-center">作品瀏覽</h1>
+  <br>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
@@ -62,6 +84,8 @@
 
 <!-- 施工紀錄 -->
 <div class="container">
+  <h1 class="text-center">施工紀錄</h1>
+  <br>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -212,44 +236,45 @@
   </div>
 </div>
 
+<!-- 聯絡我們 -->
 <div id="contact" class="pt-3 pb-5">
   <div class="container mt-3 p-5">
     <h1 class="text-center mb-5">聯絡我們</h1>
     <form class="row g-3">
       <div class="col-md-3">
         <label for="inputName" class="form-label">聯絡姓名</label>
-        <input type="text" class="form-control" id="inputName">
+        <input required type="text" class="form-control" id="inputName">
       </div>
       <div class="col-md-3 pt-4">
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="male">
+          <input required class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="male">
           <label class="form-check-label" for="gender">先生</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="female">
+          <input required class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="female">
           <label class="form-check-label" for="gender">小姐</label>
         </div>
       </div>
       <div class="col-md-6">
         <label for="inputPhone" class="form-label">電話/手機號碼</label>
-        <input type="number" class="form-control" id="inputPhone">
+        <input required type="number" class="form-control" id="inputPhone">
       </div>
       <div class="col-md-6">
         <label for="inputLine" class="form-label">Line ID</label>
-        <input type="text" class="form-control" id="inputLine">
+        <input required type="text" class="form-control" id="inputLine">
       </div>
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">電子信箱</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <input required type="email" class="form-control" id="inputEmail4">
       </div>
       <div class="col-12">
         <label for="inputAddress" class="form-label">案場位置/地址</label>
-        <input type="text" class="form-control" id="inputAddress">
+        <input required type="text" class="form-control" id="inputAddress">
       </div>
       <div class="col-md-6">
         <label for="inputAmount" class="form-label">理想改造</label>
-        <select id="inputAmount" class="form-select">
-          <option selected>請選擇</option>
+        <select required id="inputAmount" class="form-select">
+          <option value="" selected>請選擇</option>
           <option value="oldHouse">老屋翻修</option>
           <option value="suite">改建套房</option>
           <option value="construction">自地自建</option>
@@ -259,8 +284,8 @@
       </div>
       <div class="col-md-6">
         <label for="size" class="form-label">室內坪數</label>
-        <select id="size" class="form-select">
-          <option selected>請選擇</option>
+        <select required id="size" class="form-select">
+          <option value="" selected>請選擇</option>
           <option value="40">40坪以下</option>
           <option value="40-80">40-80坪</option>
           <option value="80-120">80-120坪</option>
@@ -270,12 +295,12 @@
       </div>
       <div class="col-md-6">
         <label for="inputTime" class="form-label">可聯絡時間/時段</label>
-        <input type="text" class="form-control" id="inputTime">
+        <input required type="text" class="form-control" id="inputTime">
       </div>
       <div class="col-md-6">
         <label for="findUs" class="form-label">如何得知{{ config('app.name', 'Laravel') }}</label>
-        <select id="findUs" class="form-select">
-          <option selected>請選擇</option>
+        <select required id="findUs" class="form-select">
+          <option value="" selected>請選擇</option>
           <option value="friends">親友介紹</option>
           <option value="advertis">網絡廣告</option>
           <option value="construction">工地現場</option>
@@ -284,7 +309,7 @@
       </div>
 
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px;"></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px;" required></textarea>
         <label for="floatingTextarea">特殊/其他需求</label>
       </div>
       <div class="col-12">
