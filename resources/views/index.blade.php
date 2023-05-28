@@ -10,31 +10,31 @@
       <!-- <img src="{{ asset('icon/banner01.jpg') }}" class="d-block w-100" alt="..."> -->
       <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
       <picture>
-        <source srcset="{{ asset('icon/banner01.jpg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner01-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner02.jpg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner02-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner03.jpg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner03-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner04.jpg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner04-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner05.jpg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner05-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
