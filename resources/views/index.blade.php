@@ -7,20 +7,36 @@
   <div class="carousel-inner">
     <div data-bs-interval="5000" class="carousel-item active">
       <!-- <img src="{{ asset('image/icon/banner.jpeg') }}" class="d-block w-100" alt="..."> -->
-      <img src="{{ asset('icon/banner01.jpg') }}" class="d-block w-100" alt="...">
+      <!-- <img src="{{ asset('icon/banner01.jpg') }}" class="d-block w-100" alt="..."> -->
       <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
+      <picture>
+        <source srcset="{{ asset('icon/banner01.jpg') }}" media="(min-width: 992px)">
+        <img src="{{ asset('icon/banner01-s.jpg') }}" class="d-block w-100" alt="...">
+      </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
-      <img src="{{ asset('icon/banner02.jpg') }}" class="d-block w-100" alt="...">
+      <picture>
+        <source srcset="{{ asset('icon/banner02.jpg') }}" media="(min-width: 992px)">
+        <img src="{{ asset('icon/banner02-s.jpg') }}" class="d-block w-100" alt="...">
+      </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
-      <img src="{{ asset('icon/banner03.jpg') }}" class="d-block w-100" alt="...">
+      <picture>
+        <source srcset="{{ asset('icon/banner03.jpg') }}" media="(min-width: 992px)">
+        <img src="{{ asset('icon/banner03-s.jpg') }}" class="d-block w-100" alt="...">
+      </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
-      <img src="{{ asset('icon/banner04.jpg') }}" class="d-block w-100" alt="...">
+      <picture>
+        <source srcset="{{ asset('icon/banner04.jpg') }}" media="(min-width: 992px)">
+        <img src="{{ asset('icon/banner04-s.jpg') }}" class="d-block w-100" alt="...">
+      </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
-      <img src="{{ asset('icon/banner05.jpg') }}" class="d-block w-100" alt="...">
+      <picture>
+        <source srcset="{{ asset('icon/banner05.jpg') }}" media="(min-width: 992px)">
+        <img src="{{ asset('icon/banner05-s.jpg') }}" class="d-block w-100" alt="...">
+      </picture>
     </div>
   </div>
 </div>
@@ -94,39 +110,23 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active row">
-        <div class="w-100 row">
-          <img src="{{ asset('icon/sample.jpg') }}" class="col-md-6" alt="...">
-          <div class="col-md-6">
-            <h1 class="text-center">防水工程</h1>
-            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
-            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
-            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
-          </div>
+        <div class="w-100 pb-5">
+          <img src="{{ asset('icon/sample01.jpg') }}" alt="...">
+          <h3 class="text-center">防水工程：施作透明防水漆及彈泥漆保護您的屋頂、浴室、陽台，提升房屋年齡及品質。</h3>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="w-100 row">
-          <img src="{{ asset('icon/sample2.jpg') }}" class="col-md-6" alt="...">
-          <div class="col-md-6">
-            <h1 class="text-center">防水工程</h1>
-            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
-            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
-            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
-          </div>
+        <div class="w-100 pb-5">
+          <img src="{{ asset('icon/sample02.jpg') }}" alt="...">
+          <h3 class="text-center">打掃工程</h3>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="w-100 row">
-          <img src="{{ asset('icon/sample.jpg') }}" class="col-md-6" alt="...">
-          <div class="col-md-6">
-            <h1 class="text-center">防水工程</h1>
-            <p class="fs-4">第一層施作透明防水漆，滲入後能夠封閉孔隙，防水、抗鹼、耐酸，防剝落粉化</p>
-            <p class="fs-4">第二、三層施作彈泥漆，具彈性及韌性，有效抗裂、防水氣，耐候、耐水、耐鹼性、耐老化，大幅提升漆膜的使用年限</p>
-            <p class="fs-4">防水保護您的屋頂、浴室、陽台，提升您的房屋年齡及品質。</p>
-          </div>
+        <div class="w-100 pb-5">
+          <img src="{{ asset('icon/sample02.jpg') }}" alt="...">
+          <h3 class="text-center">打掃工程</h3>
         </div>
       </div>
-    </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
