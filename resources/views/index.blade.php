@@ -109,7 +109,7 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active row">
+      <div class="carousel-item active">
         <div class="w-100 pb-5">
           <img src="{{ asset('icon/sample01.jpg') }}" alt="...">
           <h3 class="text-center">防水工程：施作透明防水漆及彈泥漆保護您的屋頂、浴室、陽台，提升房屋年齡及品質。</h3>
