@@ -10,31 +10,31 @@
       <!-- <img src="{{ asset('icon/banner01.jpg') }}" class="d-block w-100" alt="..."> -->
       <!-- <img src="{{ asset('image/icon/icon07.svg') }}"> -->
       <picture>
-        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner01.jpg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner01-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner02.jpg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner02-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner03.jpg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner03-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner04.jpg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner04-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
     <div data-bs-interval="5000" class="carousel-item">
       <picture>
-        <source srcset="{{ asset('icon/banner.jpeg') }}" media="(min-width: 992px)">
+        <source srcset="{{ asset('icon/banner05.jpg') }}" media="(min-width: 992px)">
         <img src="{{ asset('icon/banner05-s.jpg') }}" class="d-block w-100" alt="...">
       </picture>
     </div>
@@ -106,25 +106,38 @@
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="w-100 pb-5">
-          <img src="{{ asset('icon/sample01.jpg') }}" alt="...">
-          <h3 class="text-center">防水工程：施作透明防水漆及彈泥漆保護您的屋頂、浴室、陽台，提升房屋年齡及品質。</h3>
+        <div class="w-100 pb-5 row">
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show1.jpg') }}" alt="...">
+            <h3 class="text-center">打除工程</h3>
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show2.jpg') }}" alt="...">
+            <h3 class="text-center">地磚施作</h3>
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show3.jpg') }}" alt="...">
+            <h3 class="text-center">更換頂樓鐵厝</h3>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="w-100 pb-5">
-          <img src="{{ asset('icon/sample02.jpg') }}" alt="...">
-          <h3 class="text-center">打掃工程</h3>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="w-100 pb-5">
-          <img src="{{ asset('icon/sample02.jpg') }}" alt="...">
-          <h3 class="text-center">打掃工程</h3>
+        <div class="w-100 pb-5 row">
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show4.jpg') }}" alt="...">
+            <h3 class="text-center">施作抿石子</h3>
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show5.jpg') }}" alt="...">
+            <h3 class="text-center">浴室防水施作</h3>
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="{{ asset('icon/show6.jpg') }}" alt="...">
+            <h3 class="text-center">壁磚施工</h3>
+          </div>
         </div>
       </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
