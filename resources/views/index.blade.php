@@ -110,17 +110,17 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="w-100 pb-5 row">
-          <div class="col-md-4 p-4">
+          <div class="col-md-4 p-4" >
             <img src="{{ asset('icon/show1.jpg') }}" alt="...">
-            <h3 class="text-center">打除工程</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">打除工程</h3>
           </div>
           <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show2.jpg') }}" alt="...">
-            <h3 class="text-center">地磚施作</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">地磚施作</h3>
           </div>
           <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show3.jpg') }}" alt="...">
-            <h3 class="text-center">更換頂樓鐵厝</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">更換頂樓鐵厝</h3>
           </div>
         </div>
       </div>
@@ -128,15 +128,15 @@
         <div class="w-100 pb-5 row">
           <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show4.jpg') }}" alt="...">
-            <h3 class="text-center">施作抿石子</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">施作抿石子</h3>
           </div>
           <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show5.jpg') }}" alt="...">
-            <h3 class="text-center">浴室防水施作</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">浴室防水施作</h3>
           </div>
           <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show6.jpg') }}" alt="...">
-            <h3 class="text-center">壁磚施工</h3>
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">壁磚施工</h3>
           </div>
         </div>
       </div>
