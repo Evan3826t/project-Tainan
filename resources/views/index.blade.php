@@ -39,6 +39,14 @@
       </picture>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 <!-- 關於我們 -->
@@ -152,7 +160,7 @@
 </div>
 
 <!-- 小輪播 -->
-<div class="container p-5">
+<!-- <div class="container p-5">
   <div class="slider responsive">
     <div>
       <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
@@ -173,7 +181,7 @@
       <img src="{{ asset('icon/test.jpeg') }}" alt="" class="rounded mx-auto d-block">
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- 施工流程 -->
 <div id="CProfile">
