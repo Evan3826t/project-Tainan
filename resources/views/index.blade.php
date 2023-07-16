@@ -70,6 +70,37 @@
     </div>
   </div>
 </div>
+<!-- 關於我們 -->
+<div id="aboutUsPhone" class="p-5" style="background-color: #f8f8f8;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">關於我們</h1>
+        <br>
+        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點</p>
+        <p class="fs-4 text-center">開始進行<span class="fs-4" style="font-weight:bold;">屋翻修、</p>
+        <p class="fs-4 text-center"><span class="fs-4" style="font-weight:bold;">公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
+        <br>
+        <p class="fs-4 text-center" style="font-style:italic;">累積至今20年專業經驗！</p>
+        <p class="fs-4 text-center" style="font-style:italic;">獲得業主們的口碑相傳！</p>
+        <br>
+        <p class="fs-4 text-center">子承衣缽</p>
+        <p class="fs-4 text-center">更是將團隊項目由建築新增到室內設計</p>
+        <p class="fs-4 text-center">兼具您要的安全、舒適、美觀</p>
+        <p class="fs-4 text-center">期許給到業主、客戶更加全面的服務</p>
+        <p class="fs-4 text-center">下一代的我們秉持著上一代的精神及技術</p>
+        <p class="fs-4 text-center">規格再升級！</p>
+        <p class="fs-4 text-center">為了客戶在完工階段看見心目中理想畫面</p>
+        <p class="fs-4 text-center">就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
+        <br>
+        <p class="fs-4 text-center">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
+        <p class="fs-4 text-center">選擇我們給您牢靠穩健的服務！</p>
+        <br><br><br>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- 卡片 -->
 <div class="container mt-5 mb-5">
@@ -78,28 +109,28 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('show/showIcon1-1.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">標題</h5>
-          <p class="card-text">簡述</p>
+          <h5 class="card-title">台南市中西區 ‧ 水療美容中心</h5>
+          <!-- <p class="card-text">桑拿間及淋浴間翻修裝潢，光線充足、品質優良且一致！</p> -->
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('show/showIcon2-1.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">標題</h5>
-          <p class="card-text">簡述</p>
+          <h5 class="card-title">台南市永康區 ‧ 浴室翻新</h5>
+          <!-- <p class="card-text">挑選自己喜愛的壁磚及木工，讓老屋裡陳舊的浴室、廁所煥然一新，提高生活品質的水平，即便使用起來只是短暫的時間，也要讓生活的每一分、每一秒感受到舒適、愉悅。</p> -->
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="{{ asset('icon/test.jpeg') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('show/showIcon3-1.jpg') }}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">標題</h5>
-          <p class="card-text">簡述</p>
+          <h5 class="card-title">台南市南區 ‧ 老宅翻新</h5>
+          <!-- <p class="card-text">小家庭新入住，三十年老宅整棟翻新，廚房壁磚貼合考驗師傅技術，陽台花磚、浴室壁磚及地磚、廚房櫥具，由我們與屋主一同精心挑選、商量，完工後的成品在燈光的照映之下，一角一隅的角落盡能展現出居住的精緻、歡心以及舒適。</p> -->
         </div>
       </div>
     </div>

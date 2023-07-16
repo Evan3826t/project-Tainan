@@ -70,6 +70,7 @@
     #portfolio {
         height: 50vh;
     }
+
     .card {
         border-radius: 4px;
         background: #fff;
@@ -82,7 +83,8 @@
         transform: scale(1.05);
         box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
     }
-    .show-me{
+
+    .show-me {
         display: none;
         position: absolute;
         bottom: 0;
@@ -90,16 +92,20 @@
         background-color: rgba(255, 255, 255, 0.8);
 
     }
+
     .card:hover .show-me {
         display: block;
     }
+
     .card-show {
         max-height: 350px;
     }
+
     .carousel .show-image {
         height: 70vh;
     }
-    #project-show{
+
+    #project-show {
         position: fixed;
         z-index: 9999999999;
         top: 0;
@@ -109,19 +115,53 @@
         background-color: #111;
         display: none;
     }
+
     .close-image {
-        border-style:solid;
+        border-style: solid;
         border-color: #fff;
         font-size: large;
-        border:  solid #fff !important;
+        border: solid #fff !important;
     }
+
     .responsive-for-image {
         max-height: 50vh;
         max-width: 50vw;
     }
+
     .responsive-nav-image {
         max-height: 20vh;
         max-width: 20vw;
+    }
+
+    #aboutUs {
+        
+        background-image: url("{{ asset('icon/about.png') }}");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #aboutUsPhone  {
+        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+        background-image: url("{{ asset('icon/about-phone.png') }}");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+    }
+    #aboutUs p ,#aboutUs span, #aboutUs h1{
+        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+    }
+    #aboutUsPhone p ,#aboutUsPhone span, #aboutUsPhone h1{
+        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+    }
+    @media (max-width: 450px) {
+        #aboutUs {
+            display: none;
+        }
+        #aboutUsPhone {
+            display: block;
+        }
+
     }
 </style>
 

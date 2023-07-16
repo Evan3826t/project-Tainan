@@ -38,4 +38,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio']);
-Route::get('/portfolio/project', [App\Http\Controllers\HomeController::class, 'show']);
+Route::get('/portfolio/project/{id}', [App\Http\Controllers\HomeController::class, 'show']);
