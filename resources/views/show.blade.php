@@ -60,8 +60,8 @@
       asNavFor: '.responsive-nav'
     });
     $('.responsive-nav').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       asNavFor: '.responsive-for',
       dots: true,
       centerMode: true,
@@ -71,6 +71,7 @@
 
 
   function carouselToggle() {
+    $(".slick-next").click();
     var x = document.getElementById("project-show");
     if (x.style.display === "none") {
       x.style.display = "block";

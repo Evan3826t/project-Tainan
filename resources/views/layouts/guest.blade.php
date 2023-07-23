@@ -51,6 +51,15 @@
     <link href="{{ asset('css/banner.css') }}" rel="stylesheet">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPVFWL51C9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-CPVFWL51C9');
+    </script>
 </head>
 <style>
     #contact {
@@ -156,10 +165,10 @@
     }
     @media (max-width: 450px) {
         #aboutUs {
-            display: none;
+            display: none !important;
         }
         #aboutUsPhone {
-            display: block;
+            display: block !important;
         }
 
     }
