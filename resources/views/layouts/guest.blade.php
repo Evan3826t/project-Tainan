@@ -110,6 +110,11 @@
         max-height: 350px;
     }
 
+    .card-title-link{
+        text-decoration: none !important;
+        color: black;
+    }
+
     .carousel .show-image {
         height: 70vh;
     }
@@ -133,8 +138,8 @@
     }
 
     .responsive-for-image {
-        max-height: 50vh;
-        max-width: 50vw;
+        max-height: 60vh;
+        max-width: 60vw;
     }
 
     .responsive-nav-image {
@@ -149,7 +154,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    #aboutUsPhone  {
+    #aboutUsPhone {
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
         background-image: url("{{ asset('icon/about-phone.png') }}");
         background-position: center;
@@ -157,10 +162,10 @@
         background-size: cover;
         display: none;
     }
-    #aboutUs p ,#aboutUs span, #aboutUs h1{
+    #aboutUs p, #aboutUs span, #aboutUs h1{
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
     }
-    #aboutUsPhone p ,#aboutUsPhone span, #aboutUsPhone h1{
+    #aboutUsPhone p, #aboutUsPhone span, #aboutUsPhone h1{
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
     }
     @media (max-width: 450px) {

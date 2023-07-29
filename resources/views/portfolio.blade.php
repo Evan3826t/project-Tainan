@@ -34,7 +34,7 @@
       <div class="col">
         <a href="/portfolio/project/3">
           <div class="card">
-            <img src="{{ asset('show/showIcon3-1.jpg') }}" class="card-img-top card-show" alt="...">
+            <img src="{{ asset('show/showIcon3-2.jpg') }}" class="card-img-top card-show" alt="...">
             <div class="show-me text-secondary p-3">台南市南區 ‧ 老宅翻新</div>
           </div>
         </a>
