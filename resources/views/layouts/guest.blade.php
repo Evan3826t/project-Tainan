@@ -168,11 +168,14 @@
     #aboutUsPhone p, #aboutUsPhone span, #aboutUsPhone h1{
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
     }
+    .constructionPhone {
+        display: none;
+    }
     @media (max-width: 450px) {
-        #aboutUs {
+        #aboutUs, .constructionPC{
             display: none !important;
         }
-        #aboutUsPhone {
+        #aboutUsPhone, .constructionPhone{
             display: block !important;
         }
 

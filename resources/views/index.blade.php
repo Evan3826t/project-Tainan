@@ -144,7 +144,7 @@
 </div>
 
 <!-- 施工紀錄 -->
-<div class="container">
+<div class="container constructionPC">
   <h1 class="text-center">施工紀錄</h1>
   <br>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -155,7 +155,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="w-100 pb-5 row">
-          <div class="col-md-4 p-4" >
+          <div class="col-md-4 p-4">
             <img src="{{ asset('icon/show1.jpg') }}" alt="...">
             <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">打除工程</h3>
           </div>
@@ -185,16 +185,55 @@
           </div>
         </div>
       </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
 </div>
+
+<!-- 施工紀錄 手機頁面 -->
+<div class="container constructionPhone">
+  <h1 class="text-center">施工紀錄</h1>
+  <br>
+  <div id="carouselPhoneIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      @for($i = 0; $i < 6; $i++)
+      <button type="button" data-bs-target="#carouselPhoneIndicators" data-bs-slide-to="{{$i}}" class="active" aria-current="true" aria-label="Slide 1"></button>
+      @endfor
+    </div>
+    <div class="carousel-inner">
+      @for($i = 1; $i <= 6; $i++)
+      @if($i == 1)
+      <div class="carousel-item active">
+      @else
+      <div class="carousel-item">
+      @endif
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show' . $i . '.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">打除工程</h3>
+          </div>
+        </div>
+      </div>
+      @endfor
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoneIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPhoneIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
 
 <!-- 小輪播 -->
 <!-- <div class="container p-5">
