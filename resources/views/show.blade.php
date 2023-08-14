@@ -3,8 +3,8 @@
 @section('content')
 
 
-<div id="portfolio" class="p-5 d-flex justify-content-center align-items-center" style="background-color: #f8f8f8;">
-  <h1 class="d-flex align-items-center text-center">作品案例 - 老宅翻新</h1>
+<div id="portfolio" class="p-5 d-flex justify-content-center align-items-center" style="background-image: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);">
+  <h1 class="d-flex align-items-center text-center">{{ $showContent['text'][0] }}</h1>
 </div>
 
 <!-- 卡片 -->
@@ -28,7 +28,7 @@
 
 <div class="p-3" id="project-show">
   <div class="text-white text-end"> <button type="button" class="btn btn-light" onclick="carouselToggle()">X</button></div>
-  <div class="container p-5">
+  <div class="container">
     <div class="slider responsive-for">
       @for ($i = 1; $i <= $count; $i++)
       <div>

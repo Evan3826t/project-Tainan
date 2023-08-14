@@ -56,13 +56,11 @@
       <div class="col-lg-12">
         <h1 class="text-center">關於我們</h1>
         <br>
-        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點</p>
-        <p class="fs-4 text-center">開始進行<span class="fs-4" style="font-weight:bold;">屋翻修、公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
+        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
         <p class="fs-4 text-center" style="font-style:italic;">累積至今20年專業經驗！獲得業主們的口碑相傳！</p>
         <br>
-        <p class="fs-4 text-center">子承衣缽，更是將團隊項目由建築新增到室內設計</p>
-        <p class="fs-4 text-center">兼具您要的安全、舒適、美觀，期許給到業主、客戶更加全面的服務</p>
-        <p class="fs-4 text-center">下一代的我們秉持著上一代的精神及技術，規格再升級</p>
+        <p class="fs-4 text-center">子承衣缽，更是將團隊項目由建築新增到室內設計，兼具您要的安全、舒適、美觀，</p>
+        <p class="fs-4 text-center">期許給到業主、客戶更加全面的服務，下一代的我們秉持著上一代的精神及技術，規格再升級！</p>
         <p class="fs-4 text-center">為了客戶在完工階段看見心目中理想畫面就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
         <br>
         <p class="fs-4 text-center">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
@@ -71,35 +69,30 @@
   </div>
 </div>
 <!-- 關於我們 -->
-<div id="aboutUsPhone" class="p-5" style="background-color: #f8f8f8;">
-  <div class="container">
-    <div class="row">
+<div id="aboutUsPhone" class="pt-5 pb-5" style="background-color: #f8f8f8;">
+
       <div class="col-lg-12">
         <h1 class="text-center">關於我們</h1>
         <br>
-        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點</p>
-        <p class="fs-4 text-center">開始進行<span class="fs-4" style="font-weight:bold;">屋翻修、</p>
-        <p class="fs-4 text-center"><span class="fs-4" style="font-weight:bold;">公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">詠櫟山團隊的土水師傅於台南為起點</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、公寓翻修套房、</span></p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0"><span class="fs-4" style="font-weight:bold;">自地自建、屋內局部翻新</span>等……大小建案</p>
         <br>
-        <p class="fs-4 text-center" style="font-style:italic;">累積至今20年專業經驗！</p>
-        <p class="fs-4 text-center" style="font-style:italic;">獲得業主們的口碑相傳！</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0" style="font-style:italic;">累積至今20年專業經驗！</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0" style="font-style:italic;">獲得業主們的口碑相傳！</p>
         <br>
-        <p class="fs-4 text-center">子承衣缽</p>
-        <p class="fs-4 text-center">更是將團隊項目由建築新增到室內設計</p>
-        <p class="fs-4 text-center">兼具您要的安全、舒適、美觀</p>
-        <p class="fs-4 text-center">期許給到業主、客戶更加全面的服務</p>
-        <p class="fs-4 text-center">下一代的我們秉持著上一代的精神及技術</p>
-        <p class="fs-4 text-center">規格再升級！</p>
-        <p class="fs-4 text-center">為了客戶在完工階段看見心目中理想畫面</p>
-        <p class="fs-4 text-center">就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">子承衣缽</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">更是將團隊項目由建築新增到室內設計</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">兼具您要的安全、舒適、美觀</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">期許給到業主、客戶更加全面的服務</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">下一代的我們秉持著上一代的精神及技術</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">規格再升級！</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">為了客戶在完工階段看見心目中理想畫面</p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">就在眼前的一張笑臉、一聲稱讚、一則回饋。</p>
         <br>
-        <p class="fs-4 text-center">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</p>
-        <p class="fs-4 text-center">選擇我們給您牢靠穩健的服務！</p>
-        <br><br><br>
-        <br><br><br>
+        <p class="fs-4 text-center aboutUsPhoneText m-0"><span class="fs-4" style="font-weight:bold;">詠櫟山做事實在，選擇我們給您牢靠穩健的服務！</span></p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0"><span class="fs-4" style="font-weight:bold;">選擇我們給您牢靠穩健的服務！</span></p>
       </div>
-    </div>
-  </div>
 </div>
 
 <!-- 卡片 -->
@@ -121,7 +114,7 @@
     <div class="col">
       <a class="card-title-link" href="/portfolio/project/2">
         <div class="card">
-          <img src="{{ asset('show/showIcon2-1.jpg') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('show/showIcon2-4.jpg') }}" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">台南市永康區 ‧ 浴室翻新</h5>
             <!-- <p class="card-text">挑選自己喜愛的壁磚及木工，讓老屋裡陳舊的浴室、廁所煥然一新，提高生活品質的水平，即便使用起來只是短暫的時間，也要讓生活的每一分、每一秒感受到舒適、愉悅。</p> -->
@@ -130,7 +123,7 @@
       </a>
     </div>
     <div class="col">
-      <a class="card-title-link" href="/portfolio/project/1">
+      <a class="card-title-link" href="/portfolio/project/3">
         <div class="card">
           <img src="{{ asset('show/showIcon3-1.jpg') }}" class="card-img-top" alt="...">
           <div class="card-body">
@@ -208,20 +201,54 @@
       @endfor
     </div>
     <div class="carousel-inner">
-      @for($i = 1; $i <= 6; $i++)
-      @if($i == 1)
       <div class="carousel-item active">
-      @else
-      <div class="carousel-item">
-      @endif
         <div class="w-100 pb-5 row">
           <div class="col-md-12 p-4">
-            <img src="{{ asset('icon/show' . $i . '.jpg') }}" alt="...">
+            <img src="{{ asset('icon/show1.jpg') }}" alt="...">
             <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">打除工程</h3>
           </div>
         </div>
       </div>
-      @endfor
+      <div class="carousel-item">
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show2.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">地磚施作</h3>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show3.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">更換頂樓鐵厝</h3>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show4.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">施作抿石子</h3>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show5.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">浴室防水施作</h3>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="w-100 pb-5 row">
+          <div class="col-md-12 p-4">
+            <img src="{{ asset('icon/show6.jpg') }}" alt="...">
+            <h3 class="text-center pt-2 pb-2" style="background-color:#f8f8f8; border-radius: 0 0 20px 20px;">壁磚施工</h3>
+          </div>
+        </div>
+      </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoneIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -451,13 +478,12 @@
     slideNav();
   });
 
-  function wordsTotal() {
-    var countMax = 500;
-    var thisValueLength = $('#Content').val().length;
-    var total = countMax - thisValueLength;
-    $('#totalTxt').text(total);
+  function sendMail(e) {
+    e.preventDefault();
+    var form = new FormData(document.getElementById("contactForm"));
+
+    alert(form);
   }
-  wordsTotal();
 </script>
 
 

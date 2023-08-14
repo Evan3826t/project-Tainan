@@ -138,29 +138,33 @@
     }
 
     .responsive-for-image {
-        max-height: 60vh;
-        max-width: 60vw;
+        max-height: 70vh;
+        max-width: 70vw;
     }
 
     .responsive-nav-image {
-        max-height: 20vh;
-        max-width: 20vw;
+        max-height: 15vh;
+        max-width: 15vw;
     }
 
     #aboutUs {
-        
-        background-image: url("{{ asset('icon/about.png') }}");
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+        /* background-image: url("{{ asset('icon/about.png') }}"); */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     #aboutUsPhone {
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
-        background-image: url("{{ asset('icon/about-phone.png') }}");
+        /* background-image: url("{{ asset('icon/about-phone.png') }}"); */
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: none;
+    }
+    .aboutUsPhoneText , .aboutUsPhoneText span{
+        font-size: 14px !important;
     }
     #aboutUs p, #aboutUs span, #aboutUs h1{
         font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
