@@ -54,11 +54,14 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPVFWL51C9"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-CPVFWL51C9');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CPVFWL51C9');
     </script>
 </head>
 <style>
@@ -110,7 +113,7 @@
         max-height: 350px;
     }
 
-    .card-title-link{
+    .card-title-link {
         text-decoration: none !important;
         color: black;
     }
@@ -154,8 +157,13 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    #portfolio {
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    }
+
     #aboutUsPhone {
-        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
         /* background-image: url("{{ asset('icon/about-phone.png') }}"); */
         background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
         background-position: center;
@@ -163,26 +171,44 @@
         background-size: cover;
         display: none;
     }
-    .aboutUsPhoneText , .aboutUsPhoneText span{
+
+    .aboutUsPhoneText,
+    .aboutUsPhoneText span {
         font-size: 14px !important;
     }
-    #aboutUs p, #aboutUs span, #aboutUs h1{
-        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+
+    #aboutUs p,
+    #aboutUs span,
+    #aboutUs h1 {
+        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
     }
-    #aboutUsPhone p, #aboutUsPhone span, #aboutUsPhone h1{
-        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+
+    #aboutUsPhone p,
+    #aboutUsPhone span,
+    #aboutUsPhone h1 {
+        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
     }
+
     .constructionPhone {
         display: none;
     }
+
     @media (max-width: 450px) {
-        #aboutUs, .constructionPC{
+
+        #aboutUs,
+        .constructionPC {
             display: none !important;
         }
-        #aboutUsPhone, .constructionPhone{
+
+        #aboutUsPhone,
+        .constructionPhone {
             display: block !important;
         }
 
+        .responsive-for-image {
+            max-height: 90vh;
+            max-width: 90vw;
+        }
     }
 </style>
 
