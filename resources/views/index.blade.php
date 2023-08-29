@@ -299,35 +299,35 @@
         <div class="commJJ">
           <div class="boox"><img src="{{ asset('icon/icon01.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon01.svg') }}"> -->
-            <p>初步洽談</p>
+            <p><span class="CProfilePhone">1.</span>初步洽談</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon02.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon02.svg') }}"> -->
-            <p>實地勘查</p>
+            <p><span class="CProfilePhone">2.</span>實地勘查</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon03.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon03.svg') }}"> -->
-            <p>設計提議</p>
+            <p><span class="CProfilePhone">3.</span>設計提議</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon04.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon04.svg') }}"> -->
-            <p>工程委託</p>
+            <p><span class="CProfilePhone">4.</span>工程委託</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon05.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon05.svg') }}"> -->
-            <p>工期安排</p>
+            <p><span class="CProfilePhone">5.</span>工期安排</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon06.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon06.svg') }}"> -->
-            <p>工程施作</p>
+            <p><span class="CProfilePhone">6.</span>工程施作</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon07.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon07.svg') }}"> -->
-            <p>雙方檢核</p>
+            <p><span class="CProfilePhone">7.</span>雙方檢核</p>
           </div>
           <div class="boox"><img src="{{ asset('icon/icon08.svg') }}">
             <!-- <div class="boox"><img src="{{ asset('image/icon/icon08.svg') }}"> -->
-            <p>圓滿結案</p>
+            <p><span class="CProfilePhone">8.</span>圓滿結案</p>
           </div>
         </div>
       </div>
@@ -336,13 +336,13 @@
 </div>
 
 <!-- 聯絡我們 -->
-<div id="contact" class="pt-3 pb-5">
+<!-- <div id="contact" class="pt-3 pb-5">
   <div class="container mt-3 p-5">
     <h1 class="text-center mb-5">聯絡我們</h1>
-    <form class="row g-3" action="/send" method="post">
+    <form id="contactForm" class="row g-3" onsubmit="sendMail(event)">
       <div class="col-md-3">
         <label for="inputName" class="form-label">聯絡姓名</label>
-        <input required type="text" class="form-control" id="inputName">
+        <input required type="text" class="form-control" id="inputName" value="聯絡姓名">
       </div>
       <div class="col-md-3 pt-4">
         <div class="form-check form-check-inline">
@@ -356,25 +356,25 @@
       </div>
       <div class="col-md-6">
         <label for="inputPhone" class="form-label">電話/手機號碼</label>
-        <input required type="number" class="form-control" id="inputPhone">
+        <input required type="number" class="form-control" id="inputPhone" value="098765">
       </div>
       <div class="col-md-6">
         <label for="inputLine" class="form-label">Line ID</label>
-        <input required type="text" class="form-control" id="inputLine">
+        <input required type="text" class="form-control" id="inputLine" value="line">
       </div>
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">電子信箱</label>
-        <input required type="email" class="form-control" id="inputEmail4">
+        <label for="inputEmail" class="form-label">電子信箱</label>
+        <input required type="email" class="form-control" id="inputEmail" value="test@gmail.com">
       </div>
       <div class="col-12">
         <label for="inputAddress" class="form-label">案場位置/地址</label>
-        <input required type="text" class="form-control" id="inputAddress">
+        <input required type="text" class="form-control" id="inputAddress" value="案場位置">
       </div>
       <div class="col-md-6">
         <label for="inputAmount" class="form-label">理想改造</label>
         <select required id="inputAmount" class="form-select">
-          <option value="" selected>請選擇</option>
-          <option value="oldHouse">老屋翻修</option>
+          <option value="">請選擇</option>
+          <option selected value="oldHouse">老屋翻修</option>
           <option value="suite">改建套房</option>
           <option value="construction">自地自建</option>
           <option value="renew">局部翻新</option>
@@ -384,8 +384,8 @@
       <div class="col-md-6">
         <label for="size" class="form-label">室內坪數</label>
         <select required id="size" class="form-select">
-          <option value="" selected>請選擇</option>
-          <option value="40">40坪以下</option>
+          <option value="">請選擇</option>
+          <option selected value="40">40坪以下</option>
           <option value="40-80">40-80坪</option>
           <option value="80-120">80-120坪</option>
           <option value="120-160">120-160坪</option>
@@ -394,13 +394,13 @@
       </div>
       <div class="col-md-6">
         <label for="inputTime" class="form-label">可聯絡時間/時段</label>
-        <input required type="text" class="form-control" id="inputTime">
+        <input required type="text" class="form-control" id="inputTime" value="123">
       </div>
       <div class="col-md-6">
         <label for="findUs" class="form-label">如何得知{{ config('app.name', 'Laravel') }}</label>
         <select required id="findUs" class="form-select">
-          <option value="" selected>請選擇</option>
-          <option value="friends">親友介紹</option>
+          <option value="">請選擇</option>
+          <option selected value="friends">親友介紹</option>
           <option value="advertis">網絡廣告</option>
           <option value="construction">工地現場</option>
           <option value="other">其他</option>
@@ -408,7 +408,7 @@
       </div>
 
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px;" required></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:150px;" required>asdf</textarea>
         <label for="floatingTextarea">特殊/其他需求</label>
       </div>
       <div class="col-12">
@@ -416,7 +416,7 @@
       </div>
     </form>
   </div>
-</div>
+</div> -->
 
 @endsection
 
