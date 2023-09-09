@@ -57,7 +57,7 @@
       <div class="col-lg-12">
         <h1 class="text-center">關於我們</h1>
         <br>
-        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、公寓翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
+        <p class="fs-4 text-center">詠櫟山團隊的土水師傅於台南為起點開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、透天翻修套房、自地自建、屋內局部翻新</span>等……大小建案</p>
         <p class="fs-4 text-center" style="font-style:italic;">累積至今20年專業經驗！獲得業主們的口碑相傳！</p>
         <br>
         <p class="fs-4 text-center">子承衣缽，更是將團隊項目由建築新增到室內設計，兼具您要的安全、舒適、美觀，</p>
@@ -76,7 +76,7 @@
         <h1 class="text-center">關於我們</h1>
         <br>
         <p class="fs-4 text-center aboutUsPhoneText m-0">詠櫟山團隊的土水師傅於台南為起點</p>
-        <p class="fs-4 text-center aboutUsPhoneText m-0">開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、公寓翻修套房、</span></p>
+        <p class="fs-4 text-center aboutUsPhoneText m-0">開始進行<span class="fs-4" style="font-weight:bold;">老屋翻修、透天翻修套房、</span></p>
         <p class="fs-4 text-center aboutUsPhoneText m-0"><span class="fs-4" style="font-weight:bold;">自地自建、屋內局部翻新</span>等……大小建案</p>
         <br>
         <p class="fs-4 text-center aboutUsPhoneText m-0" style="font-style:italic;">累積至今20年專業經驗！</p>

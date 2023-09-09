@@ -109,6 +109,153 @@ footer .fb ul li img { width: 50px; }
 #fix_box a#estimate_icon b { width: 35px; display: inline-block; text-align: center; line-height: 1.2; font-size: 15px; color: #fff; }
 #fix_box a#instagram_icon svg g { -webkit-transform: scale(1.1); transform: scale(1.1); -webkit-transform-origin: center; transform-origin: center; }
 
+#contact {
+	background-color: #e5e5e5;
+}
+
+#contact .container {
+	background: rgba(255, 255, 255, 0.91);
+	box-shadow: 0px 5px 10px -5px rgb(187 187 187 / 25%);
+	border-radius: 12px;
+}
+
+body {
+	background: #e5e5e5;
+}
+
+#portfolio {
+	height: 50vh;
+}
+
+.card {
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+	transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.show-me {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.card:hover .show-me {
+	display: block;
+}
+
+.card-title-link {
+	text-decoration: none !important;
+	color: black;
+}
+
+.carousel .show-image {
+	height: 70vh;
+}
+
+#project-show {
+	position: fixed;
+	z-index: 9999999999;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #111;
+	display: none;
+}
+
+.close-image {
+	border-style: solid;
+	border-color: #fff;
+	font-size: large;
+	border: solid #fff !important;
+}
+
+.responsive-for-image {
+	max-height: 70vh;
+	max-width: 70vw;
+}
+
+.responsive-nav-image {
+	max-height: 15vh;
+	max-width: 15vw;
+}
+
+#aboutUs {
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+	/* background-image: url("{{ asset('icon/about.png') }}"); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#portfolio {
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+#aboutUsPhone {
+	font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+	/* background-image: url("{{ asset('icon/about-phone.png') }}"); */
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+
+.aboutUsPhoneText,
+.aboutUsPhoneText span {
+	font-size: 14px !important;
+}
+
+#aboutUs p,
+#aboutUs span,
+#aboutUs h1 {
+	font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+}
+
+#aboutUsPhone p,
+#aboutUsPhone span,
+#aboutUsPhone h1 {
+	font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+}
+
+.constructionPhone {
+	display: none;
+}
+.CProfilePhone {
+		display: none;
+}
+
+@media (max-width: 450px) {
+
+	#aboutUs,
+	.constructionPC {
+		display: none !important;
+	}
+	.CProfilePhone {
+		display: inline;
+	}
+
+	#aboutUsPhone,
+	.constructionPhone {
+		display: block !important;
+	}
+
+	.responsive-for-image {
+		max-height: 90vh;
+		max-width: 90vw;
+	}
+}
 @media screen and (max-width: 1680px) {
 	section{ width:90%; }
 	header #cis {width: 260px;}

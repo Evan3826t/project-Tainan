@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
 
     <meta name="google-site-verification" content="iPXvAStUm0zk2LBeXIv4q2YFRJscu_jHdaqvdSW2ALw" />
-    <meta name="keywords" content="台南室內裝潢,mobile01空間設計,台南裝潢" />
-    <meta name="description" content="內容描述" />
+    <meta name="title" content="{{ config('app.name', 'Laravel') }}" />
+    <meta name="keywords" content="台南室內裝潢,空間設計,台南裝潢,台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
+    <meta name="description" content="台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
     <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
-    <meta property="og:type" content="內容描述" />
-    <meta property="og:url" content="www.mb-design.com.tw/" />
+    <meta property="og:type" content="台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
+    <meta property="og:url" content="www.yonglishan.tw" />
     <meta name="rating" content="general" />
     <meta name="revisit-after" content="1 DAYS" />
     <meta name="robots" content="all" />
@@ -64,156 +65,6 @@
         gtag('config', 'G-CPVFWL51C9');
     </script>
 </head>
-<style>
-    #contact {
-        background-color: #e5e5e5;
-    }
-
-    #contact .container {
-        background: rgba(255, 255, 255, 0.91);
-        box-shadow: 0px 5px 10px -5px rgb(187 187 187 / 25%);
-        border-radius: 12px;
-    }
-
-    body {
-        background: #e5e5e5;
-    }
-
-    #portfolio {
-        height: 50vh;
-    }
-
-    .card {
-        border-radius: 4px;
-        background: #fff;
-        box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
-        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-        cursor: pointer;
-    }
-
-    .card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
-    }
-
-    .show-me {
-        display: none;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.8);
-
-    }
-
-    .card:hover .show-me {
-        display: block;
-    }
-
-    .card-title-link {
-        text-decoration: none !important;
-        color: black;
-    }
-
-    .carousel .show-image {
-        height: 70vh;
-    }
-
-    #project-show {
-        position: fixed;
-        z-index: 9999999999;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #111;
-        display: none;
-    }
-
-    .close-image {
-        border-style: solid;
-        border-color: #fff;
-        font-size: large;
-        border: solid #fff !important;
-    }
-
-    .responsive-for-image {
-        max-height: 70vh;
-        max-width: 70vw;
-    }
-
-    .responsive-nav-image {
-        max-height: 15vh;
-        max-width: 15vw;
-    }
-
-    #aboutUs {
-        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-        /* background-image: url("{{ asset('icon/about.png') }}"); */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #portfolio {
-        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-    }
-
-    #aboutUsPhone {
-        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
-        /* background-image: url("{{ asset('icon/about-phone.png') }}"); */
-        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: none;
-    }
-
-    .aboutUsPhoneText,
-    .aboutUsPhoneText span {
-        font-size: 14px !important;
-    }
-
-    #aboutUs p,
-    #aboutUs span,
-    #aboutUs h1 {
-        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
-    }
-
-    #aboutUsPhone p,
-    #aboutUsPhone span,
-    #aboutUsPhone h1 {
-        font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
-    }
-
-    .constructionPhone {
-        display: none;
-    }
-    .CProfilePhone {
-            display: none;
-    }
-
-    @media (max-width: 450px) {
-
-        #aboutUs,
-        .constructionPC {
-            display: none !important;
-        }
-        .CProfilePhone {
-            display: inline;
-        }
-
-        #aboutUsPhone,
-        .constructionPhone {
-            display: block !important;
-        }
-
-        .responsive-for-image {
-            max-height: 90vh;
-            max-width: 90vw;
-        }
-    }
-</style>
-
 <body>
     <div id="app">
         <!-- <example-component></example-component> -->
@@ -243,11 +94,8 @@
                             <li>
                                 <a href="/home#CProfile" style="text-decoration: inherit;"><b>服務流程</b></a>
                             </li>
-                            <!-- <li>
-                                <a href="" style="text-decoration: inherit;"><b>業主推薦</b></a>
-                            </li> -->
                             <li class='last'>
-                                <a href="/home#contact" style="text-decoration: inherit;"><b>聯絡我們</b></a>
+                                <a href="/home#footer" style="text-decoration: inherit;"><b>聯絡我們</b></a>
                                 <ul class="subnav"></ul>
                             </li>
 
@@ -261,7 +109,7 @@
             @yield('content')
         </main>
         <div class="translate"><a href="javascript:goTop();" id="gotop"><img style="max-width: 60%; fill: green;" src="{{ asset('icon/whiteTop.svg') }}"></a></div>
-        <footer class="wweeb bg-dark">
+        <footer id="footer" class="wweeb bg-dark">
             <section>
                 <div class="container">
                     <div class="row">
