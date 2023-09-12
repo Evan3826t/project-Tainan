@@ -9,6 +9,7 @@
     <meta name="title" content="{{ config('app.name', 'Laravel') }}" />
     <meta name="keywords" content="台南室內裝潢,空間設計,台南裝潢,台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
     <meta name="description" content="台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
+    <meta name="url" content="www.yonglishan.tw" />
     <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
     <meta property="og:type" content="台南翻修,老屋翻新,外觀拉皮,室內空間設計,浴室翻修,水電工程,抓漏防水,泥作工程,油漆工程,自地自建,套房改建" />
     <meta property="og:url" content="www.yonglishan.tw" />
